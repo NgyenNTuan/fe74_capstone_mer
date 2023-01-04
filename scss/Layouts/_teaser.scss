@@ -1,0 +1,21 @@
+#teaser {
+   padding: $pd-2 $pd-3 $pd-1;
+
+   .teaser__left {
+      padding-right: 35px;
+      
+      .teaser__left-top {
+         margin-bottom: 13.7142857143rem;
+      }
+   }
+
+   .teaser__right {
+      padding-left: 8.3333%;
+
+      .teaser__right-top {
+         margin-top: calc(13.7142857143rem * 2);
+         margin-bottom: 13.7142857143rem;
+      }
+   }
+
+}

@@ -1,0 +1,12 @@
+.img--inno {
+   overflow: hidden;
+   cursor: url("./../../imgs/mouse-icon.png"), auto;
+
+   img {
+      transform: scale3d(1, 1, 1);
+      transition: all 0.5s;
+      &:hover {
+         transform: scale3d(1.1, 1.1, 1.1);
+      }
+   }
+}

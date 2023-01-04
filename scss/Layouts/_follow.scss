@@ -1,0 +1,27 @@
+#follow {
+   padding: $pd-1 0;
+   text-align: center;
+
+   .title {
+      margin-bottom: $mg-4;
+      h1 {
+         @include styleText($fs-11, $fw-1, $color-black-1);
+      }
+   }
+
+   .follow__icon {
+      display: flex;
+      justify-content: space-between;
+
+      a {
+         transition: all 0.5s;
+         i {
+            @include styleText($fs-6, $fw-1, $color-black-1);
+         }
+
+         &:hover {
+            opacity: 0.8;
+         }
+      }
+   }
+}
