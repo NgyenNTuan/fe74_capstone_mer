@@ -1,0 +1,43 @@
+#vehicle {
+   padding: $pd-1 $pd-3;
+   background-color: $color-black-1;
+
+   .vehicle__left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .title {
+         p {
+            @include styleText($fs-4, $fw-1, $color-white);
+            line-height: $lh-5;
+         }
+   
+         h1 {
+            @include styleText($fs-9, $fw-1, $color-white);
+         }
+      }
+   
+      .description {
+         width: 60%;
+         p {
+            @include styleText($fs-10, $fw-1, $color-white);
+            line-height: $lh-6;
+            margin-bottom: 0;
+         }
+
+         .btn--mer {
+            margin-top: $mg-3;
+         }
+      }
+   }
+
+   .vehicle__right {
+      .vehicle__img {
+         img {
+            height: $h-5;
+            object-fit: cover;
+            width: 100%;
+         }
+      }
+   }
+}
