@@ -1,0 +1,49 @@
+#purchase {
+   padding: $pd-1 $pd-3;
+   background-color: $color-black-1;
+   
+   .nav-item {
+      width: 100%;
+      
+      .nav-link {
+         @include styleText($fs-11, $fw-1, $color-gray-1);
+         line-height: $lh-7;
+
+         &.active {
+            color: $color-white;
+         }
+         
+         &:focus, &:hover {
+            color: $color-white;
+         }
+      }
+   }
+
+   .purchase__link {
+      list-style: none;
+      transform: translateX(0);
+      animation: animFadeLeft 1s;
+
+      li {
+         a {
+            @include styleText($fs-2, $fw-1, $color-gray-1);
+            line-height: $lh-8;
+            text-decoration: none;
+
+            &:hover {
+               color: $color-white;
+            }
+         }
+      }
+   }
+}
+
+@keyframes animFadeLeft {
+   0% {
+      transform: translateX(-3.5714285714rem);
+   }
+
+   100% {
+      transform: translateX(0);
+   }
+}
