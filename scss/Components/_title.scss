@@ -1,0 +1,18 @@
+.title {
+   margin-bottom: $mg-2;
+
+   p {
+      @include styleText($fs-2, $fw-1, $color-black-1);
+      margin-top: $mg-1;
+   }
+
+   h1 {
+      @include styleText($fs-5, $fw-1, $color-black-4);
+      line-height: $lh-1;
+   }
+
+   h2 {
+      @include styleText($fs-6, $fw-1, $color-black-4);
+      line-height: $lh-2;
+   }
+}

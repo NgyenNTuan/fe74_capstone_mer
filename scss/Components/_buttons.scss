@@ -1,0 +1,14 @@
+.btn--mer {
+   color: $color-black-1;
+   @include styleButton($color-white, $pd-6, $pd-7, none, $br-1, $ls-1);
+   transition: all 0.5s;
+
+   span {
+      font-size: $fs-4;
+      height: $h-4;
+   }
+
+   &:hover {
+      @include styleButtonHover($color-blue-5, unset, $color-white);
+   }
+}
