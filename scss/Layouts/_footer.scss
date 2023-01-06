@@ -10,7 +10,9 @@ footer{
         .footer__right {
             .nav-link{
                 @include styleText($fs-1,$fw-1,$color-gray-1);
-                
+            }
+            .active{
+                @include styleText($fs-1,$fw-1,$color-white);
             }
             .right__item{     
                 position: relative;  

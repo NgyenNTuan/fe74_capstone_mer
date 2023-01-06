@@ -18,6 +18,9 @@
             border-bottom:calc($bd-1 / 2) solid $color-gray-1;
             margin-top: calc($mg-1 * 3);
         }
+        .animate__fadeInLeft,  .animate__fadeInUp{
+            transition-duration: 0.2s;
+        }
     }
     h2{
         @include styleText($fs-7,$fw-1,$color-white);
