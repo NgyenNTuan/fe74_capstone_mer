@@ -1,1 +1,95 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#more {
+  background-color: #000;
+}
+#more .content__more {
+  padding: 64px 0;
+}
+#more .content__more::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.55em;
+  border-bottom: 0.5px solid #767676;
+  margin-bottom: 10.2857142858rem;
+}
+#more .content__more::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.55em;
+  border-bottom: 0.5px solid #767676;
+  margin-top: 10.2857142858rem;
+}
+#more h2 {
+  font-size: 2.8571428571rem;
+  font-weight: 400;
+  color: #fff;
+}
+#more .nav-item .nav-link {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #767676;
+  padding: 0.8px;
+  transition: all 0.4s;
+}
+#more .nav-item .active {
+  color: #fff;
+}
+#more .nav-item:hover .nav-link {
+  color: #fff;
+}
+
+#describe {
+  padding: 42.6666666667px 0;
+  background-color: #000;
+}
+#describe .row::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.55em;
+  border-bottom: 0.5px solid #767676;
+  padding: 21.3333333333px 0;
+}
+#describe .title {
+  font-size: 0.8571428571rem;
+  font-weight: 400;
+  color: #767676;
+  padding: 21.3333333333px 0;
+}
+#describe .title span {
+  margin-right: 1.7142857143rem;
+}
+#describe .title span i {
+  margin-right: 0.380952381rem;
+}
+#describe .grid-container {
+  display: grid;
+  grid-template-columns: 1.7142857142rem 1fr;
+  font-size: 0.8571428571rem;
+  font-weight: 400;
+  color: #767676;
+  margin-bottom: 3.4285714286rem;
+}
+#describe .grid-container .grid-item {
+  font-size: 0.8571428571rem !important;
+}
+#describe .grid-container .grid-item a {
+  color: #999;
+  font-size: 0.8571428571rem !important;
+}
+#describe .grid-container sup {
+  line-height: 1.7;
+  font-size: 1.7142857143rem;
+  font-weight: 400;
+  color: #767676;
+}/*# sourceMappingURL=main.css.map */
