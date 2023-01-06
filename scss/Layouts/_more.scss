@@ -1,0 +1,38 @@
+#more{
+    background-color: $color-black-1;
+    .content__more{
+        padding: $pd-2 0;
+        &::before{
+            content: "";
+            display: block;
+            width: 100%;
+            height: calc($h-3 / 2);
+            border-bottom: calc($bd-1 / 2) solid $color-gray-1;
+            margin-bottom: calc($mg-1 * 3);
+        }
+        &::after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: calc($h-3 / 2);
+            border-bottom:calc($bd-1 / 2) solid $color-gray-1;
+            margin-top: calc($mg-1 * 3);
+        }
+    }
+    h2{
+        @include styleText($fs-7,$fw-1,$color-white);
+    }
+    .nav-item {
+        .nav-link{
+            @include styleText(calc($fs-2-1 / 2),$fw-1,$color-gray-1);
+            padding: $pd-08;
+            transition: all 0.4s;
+        }
+        .active{
+            color: $color-white;
+        }
+        &:hover .nav-link{
+            color: $color-white;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+#describe{
+    padding: calc($pd-1/3) 0;
+    background-color: $color-black-1;
+    .row{
+        &::after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: calc($h-3 / 2);
+            border-bottom:  calc($bd-1/2) solid $color-gray-1;
+            padding: calc($pd-1 / 6) 0;
+        }
+    }
+    .title{
+        @include styleText($fs-3,$fw-1,$color-gray-1);
+        padding: calc($pd-1 / 6) 0;
+        span{
+            margin-right: calc($mg-1 / 2);
+            i{
+                margin-right: calc($mg-1 / 9);
+            }
+        }
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: calc($fs-3 * 2) 1fr;
+        @include styleText($fs-3,$fw-1,$color-gray-1);
+        margin-bottom: $mg-1;
+        .grid-item{
+            font-size: $fs-3 !important;
+            a{
+                color: $color-gray-2;
+                font-size: $fs-3 !important;
+            }
+        }
+        sup{
+            line-height: 1.7;
+            @include styleText(calc($fs-5 / 2),$fw-1,$color-gray-1);
+        }
+      }
+}
