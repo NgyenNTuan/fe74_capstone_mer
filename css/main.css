@@ -362,4 +362,50 @@ footer .backtoTop a p {
   padding-top: 25.6px;
   margin: 0;
   text-align: center;
+}
+
+#carousel .carousel-inner .carousel-caption {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: #fff;
+}
+#carousel .carousel-inner .carousel-caption h5, #carousel .carousel-inner .carousel-caption .legacy {
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #fff;
+}
+#carousel .carousel-inner .carousel-caption .button__carousel {
+  margin-left: 0;
+}
+#carousel .carousel-inner .carousel-caption .button__carousel a {
+  transition: all 0.3s;
+  text-decoration: none;
+  margin-top: 0.8571428571rem;
+  background: #fff;
+  padding: 5.6px 1rem;
+  border: none;
+  border-radius: 1.1428571429rem;
+  letter-spacing: none;
+}
+#carousel .carousel-inner .carousel-caption .button__carousel a span {
+  font-size: 1.2857142857rem;
+  font-weight: 400;
+  color: #000;
+}
+#carousel .carousel-inner .carousel-caption .button__carousel a i {
+  margin-left: 0.5714285714rem;
+  color: #000;
+}
+#carousel .carousel-inner .carousel-caption .button__carousel a:hover {
+  background: #00182c;
+  padding: 5.6px 1rem;
+  border: none;
+  border-radius: 1.1428571429rem;
+  letter-spacing: none;
+}
+#carousel .carousel-inner .carousel-caption .button__carousel a:hover span, #carousel .carousel-inner .carousel-caption .button__carousel a:hover i {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+#carousel{
+    .carousel-inner{
+        .carousel-caption{    
+            position: absolute;
+            left: 10%;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            color: #fff;
+            h5, .legacy{
+                @include styleText($fs-12,$fw-1,$color-white);
+            }
+            .button__carousel{
+                margin-left: 0;
+                a{
+                    transition: all 0.3s;
+                    text-decoration: none;
+                    margin-top: calc($mg-2 / 2);
+                    @include styleButton($color-white,calc($pd-08 * 7),$fs-1,none,$br-1,none);
+                    span{
+                        @include styleText(calc($fs-9 / 4),$fw-1,$color-black-1); 
+                    }
+                    i{
+                        margin-left: calc($mg-2 / 3);
+                        color: $color-black-1;
+                    }
+                    &:hover{
+                        @include styleButton($color-blue-1,calc($pd-08 * 7),$fs-1,none,$br-1,none);
+                        span,i{
+                            color: $color-white;
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+}
+   
