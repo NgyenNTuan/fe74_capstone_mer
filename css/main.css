@@ -364,6 +364,9 @@ footer .backtoTop a p {
   text-align: center;
 }
 
+#carousel {
+  background-color: #000;
+}
 #carousel .carousel-inner .carousel-caption {
   position: absolute;
   left: 10%;
