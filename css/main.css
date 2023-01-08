@@ -60,6 +60,9 @@
   transform: scale3d(1.1, 1.1, 1.1);
 }
 
+header {
+  position: relative;
+}
 header .navbar {
   padding: 0;
 }
@@ -123,7 +126,7 @@ header .header__top .header__top-mid a img {
 }
 header .header__bottom {
   background-color: rgba(0, 0, 0, 0.8);
-  position: fixed;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
