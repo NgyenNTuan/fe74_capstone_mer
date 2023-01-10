@@ -1,3 +1,27 @@
 #innovation {
    padding: $pd-1 $pd-3 $pd-2;
+
+   .row {
+      justify-content: center;
+   }
+}
+
+@include responsive("extra-large-down") {
+   #innovation {
+      padding: $pd-12 $pd-11 $pd-10;
+
+      .row {
+         justify-content: unset;
+      }
+   }
+}
+
+@include responsive("medium-down") {
+   #innovation {
+      padding: $pd-14 $pd-15 $pd-13;
+
+      .col-lg-8 {
+         padding: 0;
+      }
+   }
 }

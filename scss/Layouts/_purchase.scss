@@ -47,3 +47,45 @@
       transform: translateX(0);
    }
 }
+
+@include responsive('extra-large-down') {
+   #purchase {
+      padding:$pd-12 $pd-11;
+
+      .nav-item {
+         .nav-link {
+            font-size: $fs-5;
+         }
+      }
+
+      .purchase__link {
+         li {
+            a {
+               font-size: $fs-10;
+            }
+         }
+      }
+   }
+}
+
+@include responsive('medium-down') {
+   #purchase {
+      padding:$pd-14 $pd-15;
+
+      .nav-item {
+         .nav-link {
+            padding: 0;
+            font-size: $fs-8;
+         }
+      }
+
+      .purchase__link {
+         li {
+            a {
+               font-size: $fs-4;
+               line-height: $lh-9;
+            }
+         }
+      }
+   }
+}

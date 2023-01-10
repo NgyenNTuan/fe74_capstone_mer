@@ -16,3 +16,32 @@
       line-height: $lh-2;
    }
 }
+
+@include responsive('extra-large-down') {
+   .title {
+      margin-bottom: 0;
+
+      p {
+         font-size: $fs-4;
+      }
+
+      h1 {
+         font-size: $fs-7;
+      }
+
+      h2 {
+         font-size: $fs-8;
+      }
+   }
+}
+
+@include responsive('medium-down') {
+   .title {
+      p {
+         margin-bottom: 0;
+      }
+      h1 {
+         font-size: $fs-8;
+      }
+   }
+}
