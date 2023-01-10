@@ -3,7 +3,7 @@
 
    .teaser__left {
       padding-right: 35px;
-      
+
       .teaser__left-top {
          margin-bottom: 13.7142857143rem;
       }
@@ -17,5 +17,16 @@
          margin-bottom: 13.7142857143rem;
       }
    }
+}
 
+@include responsive("extra-large-down") {
+   #teaser {
+      padding: $pd-10 $pd-11 $pd-12;
+   }
+}
+
+@include responsive("medium-down") {
+   #teaser {
+      padding: $pd-16 $pd-15 $pd-14;
+   }
 }

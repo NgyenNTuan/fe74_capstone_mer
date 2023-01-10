@@ -25,3 +25,34 @@
       }
    }
 }
+
+@include responsive('extra-large-down') {
+   #follow {
+      padding: $pd-12 0;
+      .title {
+         h1 {
+            font-size: $fs-5;
+         }
+      }
+   }
+}
+
+@include responsive('medium-down') {
+   #follow {
+      padding: $pd-17 0;
+      .title {
+         margin-bottom: $mg-3;
+         h1 {
+            font-size: $fs-8;
+         }
+      }
+
+      .follow__icon {
+         a {
+            i {
+               font-size: $fs-13;
+            }
+         }
+      }
+   }
+}

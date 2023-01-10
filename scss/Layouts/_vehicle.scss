@@ -41,3 +41,50 @@
       }
    }
 }
+
+@include responsive('extra-large-down') {
+   #vehicle {
+      padding: $pd-12 $pd-11;
+
+      .vehicle__left {
+         .title {
+            p {
+               line-height: unset;
+            }
+            h1 {
+               font-size: $fs-7;
+            }
+         }
+
+         .description {
+            p {
+               font-size: $fs-4;
+            }
+         }
+      }
+   }
+}
+
+@include responsive("medium-down") {
+   #vehicle {
+      padding: $pd-14 $pd-15;
+
+      .row {
+         position: relative;
+
+         .vehicle__left {
+            .description {
+               margin-top: 55.03vw;
+               width: 100%;
+            }
+         }
+
+         .vehicle__right {
+            position: absolute;
+            top: 150px;
+            left: 0;
+            z-index: 10;
+         }
+      }
+   }
+}
