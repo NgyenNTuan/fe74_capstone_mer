@@ -203,9 +203,9 @@ header .header__bottom .navbar .navbar-nav .nav-item .nav-link {
   header .header__top .header__top-right .header__top-menu--mb {
     display: block;
   }
-  header .header__bottom {
+  /* header .header__bottom {
     display: none;
-  }
+  } */
 }
 #more {
   background-color: #000;
